@@ -1,0 +1,50 @@
+Task 
+Create a website for school store 
+
+You can create your own template otherwise download it. 
+Requirements:-
+
+Need a home page  
+Home page should contain a navbar 
+Navbar should contain login, register & department 
+Department should be a dropdown which contains minimum 5 department(eg:-computer science, commerce ,..etc)
+When we click on any depart in the dropdown it should redirect to its corresponding Wikipedia 
+Home page should contain a button  
+When we click on the button the login page should appear 
+
+Login page requirements:-
+    o Username 
+    o Password 
+    o Submit button 
+    o Register link 
+
+When we click on the register link register form should appear 
+
+Register page Requirement:-
+    o Username 
+    o Password 
+    o Confirm password 
+    o Submit button 
+
+When we click on submit button then it should direct to the login page 
+After login need to move to a new page 
+The new page should contain a button 
+When we click on the button a form should appear 
+
+Form requirements:-
+O   Name 
+o    DOB 
+o    AGE 
+o    GENDER 
+o   PHONE NUMBER 
+o    MAIL ID 
+o   ADDRESS 
+ 
+Department (it should be in dropdown) 
+
+Courses (it should be a dependent dropdown. if we select a department in above dropdown for example if we select commerce then the course drop down should contain its sub courses for example BBA, BCom etc.,) 
+purpose (it should be a drop down., for example For Enquiry, Place Order, Return etc., ) 
+Materials provide ( should use checkbox., for example debit Note Book, Pen, exam peppers etc.,  ) 
+o Submit & logout button 
+When we click on submit button it should pass a message (for example., Order Confirmed) 
+Below the message there should be a link for returning to the home page 

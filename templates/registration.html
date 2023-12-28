@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="{% static 'css/register.css' %}" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form" method="POST" action="">
+        <!-- Corrected action URL -->
+        {% csrf_token %}
+        <h2>Registration</h2>
+        <input type="text" placeholder="Username" name="username" required />
+        <input type="email" placeholder="Email" name="email" required />
+        <input
+          type="password"
+          placeholder="Password"
+          name="password"
+          required
+        />
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          name="confirm_password"
+          required
+        />
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
